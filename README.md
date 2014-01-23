@@ -29,7 +29,7 @@ This gem assumes that the first line of the file contains the headers names (the
 
 ## Changelog
 
-Look at the [CHANGELOG](https://github.com/aghyad/capistrano_recipes/blob/master/CHANGELOG.md) to see what's changed.
+Look at the [CHANGELOG](https://github.com/aghyad/csv-monster/blob/master/CHANGELOG.md) to see what's changed.
 
 ## Contributing
 
