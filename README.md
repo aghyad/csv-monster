@@ -15,12 +15,9 @@ Usage Example:
 
     input_file = "/path/to/the/CSV/file.csv"
     delimiter = ","
-
     unless input_file.nil?
       csv_monster = CSVMonster.new(input_file , delimiter)
-      
       result = csv_monster.parse_csv
-      
       puts "CSV Monster finished crunching your CSV file \"#{input_file}\" Successfully!\n\n"
       puts "The result set has #{result.size} records.\n\n"
       puts "The CSV Monster recognized the following set of attributes:\n#{csv_monster.object_attributes.map{|a| a.to_sym}}\n\n"
