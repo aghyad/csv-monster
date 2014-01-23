@@ -27,11 +27,19 @@ This gem assumes that the first line of the file contains the headers names (the
       puts "Oops! it seems that the input file doesn't exist, or, may be it was kidnapped by Loki, the bad brother of Thor!"
     end
 
-##License:
-This gem is released under the MIT license
+## Changelog
 
-##Contribute/Contact:
+Look at the [CHANGELOG](https://github.com/aghyad/capistrano_recipes/blob/master/CHANGELOG.md) to see what's changed.
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+##Contact:
 
 Download and install the gem from "https://rubygems.org/gems/csv-monster"
-
 Feel free to contact me at: contact AT aghyadsaleh DOT com
