@@ -42,4 +42,5 @@ Look at the [CHANGELOG](https://github.com/aghyad/csv-monster/blob/master/CHANGE
 ##Contact:
 
 Download and install the gem from "https://rubygems.org/gems/csv-monster"
+
 Feel free to contact me at: contact AT aghyadsaleh DOT com
