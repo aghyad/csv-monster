@@ -5,11 +5,11 @@ This gem assumes that the first line of the file contains the headers names (the
 
 ##Installation:
 
-    # using command line:
-    gem install csv-monster -v 1.0.0
+###using command line:
+    gem install csv-monster
 
-    # using bundler:
-    gem 'csv-monster', '~> 1.0.0'
+###using bundler:
+    gem 'csv-monster'
 
 
 ##Usage Example:
