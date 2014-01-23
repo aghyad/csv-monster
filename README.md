@@ -1,5 +1,6 @@
-###This is a lightweight gem used to access CSV files and return an object (array of hashes) containing the data. 
+##About:
 
+This is a lightweight gem used to access CSV files and return an object (array of hashes) containing the data. 
 This gem assumes that the first line of the file contains the headers names (the attributes names).
 
 ##Installation:
@@ -26,7 +27,10 @@ This gem assumes that the first line of the file contains the headers names (the
       puts "Oops! it seems that the input file doesn't exist, or, may be it was kidnapped by Loki, the bad brother of Thor!"
     end
 
+##License:
+This gem is released under the MIT license
 
+##Contribute/Contact:
 
 Download and install the gem from "https://rubygems.org/gems/csv-monster"
 
