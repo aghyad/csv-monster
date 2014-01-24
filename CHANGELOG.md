@@ -1,3 +1,6 @@
+## 1.0.2 - May 18, 2013
+- fixing syntax errors
+
 ## 1.0.1 - May 18, 2013
 - fixing syntax errors
 
