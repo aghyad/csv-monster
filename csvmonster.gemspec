@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "csv-monster"
-  s.version       = "1.0.2"
+  s.version       = "1.1.0"
   s.date          = "2014-01-23"
   s.summary       = "CSV parsing gem"
   s.description   = "CSV parsing gem"
