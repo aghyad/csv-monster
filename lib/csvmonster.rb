@@ -14,6 +14,7 @@ class CSVMonster
     i=0
     output_matrix = []
     trim_return_carriage(fulltext).each_line do |line|
+      5.times { |i| avoid_commas_in_special_strings(line) }
       output_matrix << trim_line_ends(line).split(delimiter) unless i == 0
       i+=1
     end
@@ -38,6 +39,10 @@ protected
 
   def fulltext
     File.open(input_file).read
+  end
+
+  def avoid_commas_in_special_strings(text)
+    text.gsub!(/\"(.*),+(.*)\"/, '"\1;\2"')
   end
 
   def trim_return_carriage(text)

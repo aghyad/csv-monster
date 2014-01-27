@@ -15,7 +15,7 @@ unless input_file.nil?
   puts "CSV Monster finished crunching your CSV file \"#{input_file}\" Successfully!\n\n"
   puts "The result set has #{result.size} records.\n\n"
   puts "The CSV Monster recognized the following set of attributes:\n#{csv_monster.object_attributes.map{|a| a.to_sym}}\n\n"
-  puts "This is a sample of the csv data:\n#{result[2].inspect}\n\n"
+  puts "This is a sample of the csv data:\n#{result[15].inspect}\n\n"
 else
   puts "Oops! it seems that the input file doesn't exist, or, may be it was kidnapped by Loki, the bad brother of Thor!"
 end
